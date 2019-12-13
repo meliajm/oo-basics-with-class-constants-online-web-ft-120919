@@ -7,7 +7,7 @@ class Shoe
     @brand = brand
     BRANDS << brand if BRANDS.exclude?(brand)
     # BRANDS = BRANDS.uniq
-    binding.pry
+    # binding.pry
   end
 
   def cobble
