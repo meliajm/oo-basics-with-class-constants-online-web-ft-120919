@@ -15,4 +15,5 @@ class Shoe
   end
   
   BRANDS = BRANDS.uniq
+  binding.pry
 end
